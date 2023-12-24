@@ -1,0 +1,20 @@
+// Resets
+@import "./base/reset.scss";
+
+// Utils
+@import "./utils/variables.scss";
+@import "./utils/mixins.scss";
+@import "./utils/functions.scss";
+@import "./utils/responsive.scss";
+@import "./utils/vendors.scss";
+
+// Shared
+@import "./shared/titles.scss";
+@import "./shared/descriptions.scss";
+
+// Base
+@import "./base/base.scss";
+
+// Pages
+@import "./pages/home.scss";
+@import "./pages/about.scss";

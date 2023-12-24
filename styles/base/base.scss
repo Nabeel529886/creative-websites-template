@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1920 * 10);
+}
+
+body {
+  @extend %description-16;
+}
